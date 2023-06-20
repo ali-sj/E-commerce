@@ -1,0 +1,38 @@
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xl2: 1536px;
+
+
+.cardSlider {
+  .swiper {
+    padding: 4px 12px !important;
+    width: 280px !important;
+
+    @media (min-width: 420px) {
+      width: 424px !important;
+      padding: 4px 88px !important;
+    }
+
+    @media (min-width: $sm) {
+      padding: 4px 48px !important;
+      width: 600px !important;
+    }
+
+    @media (min-width: $md) {
+      padding: 4px 88px !important;
+      width: 680px !important;
+    }
+
+    @media (min-width: $lg) {
+      padding: 4px 88px !important;
+      width: 936px !important;
+    }
+
+    @media (min-width: $xl) {
+      padding: 4px 88px !important;
+      width: 1200px !important;
+    }
+  }
+}
